@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Portfolio Website | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+          
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+      
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Hello,</div>
+       <div class="text-two">I'm Komalpreet Kaur</div>
+       <div class="text-three">Computer Programming Student</div>
+       <div class="text-four">From India</div>
+     </div>
+     
+   </div>
+ </section>
+
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+  <div class="about-details">
+    <div class="left">
+      <img src="images/about.jpg" alt="">
+    </div>
+    <div class="right">
+      <div class="topic">Designing Is My Dream</div>
+      <p> I, Komalpreet Kaur, a computer programkming student in Seeneca college.I joined Seneca College as an international student but I'm originally from India. 
+        I had keen interest in programming since my school and always wanted to become a software designer. Therefore, I got enrolled in computer programming course which would be my first step in my journey of becoming a software designer.</p>
+        <h2> BASIC INFORMATION</h2>
+        <div class="containers">
+
+            <div class="rows">
+                <div class="cols-1">
+                    Age:<br>
+                    E-mail:<br>
+                    Language:<br>
+                    Class Section:<br>
+                    Student ID:<br>
+                    Instructor:
+
+                </div>
+                <div class="cols-2">
+                    20 years<br>
+                    komalpreet-kaur26@myseneca.ca<br>
+                    English, Hindi, Punjabi<br>
+                    WEB 222 ZCC<br>
+                    152860219<br>
+                    Vatsal Shah
+
+                </div>
+            </div>
+        <div class="button">
+        <button>Download CV</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- My Education Section Start -->
+<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<section class="education" id="education">
+ <div class="content">
+   <div class="title"><span>My Education</span></div>
+   <div class="education-details">
+     <div class="text">
+       <div class="topic">Education Reflects Our Knowledge</div>
+       <p> I am currently enrolled in Computer programming course in Seneca College, it is an undergraduate diploma which is expected to complete in year 2023.<br>
+        My High School and Secondary School education took lace in  India.</p>
+        
+     </div>
+     <div class="boxes">
+       <div class="box">
+         <div class="topic">High School</div>
+         <div class="per">Year:2018</div>
+       </div>
+       <div class="box">
+         <div class="topic">Secondary School</div>
+         <div class="per">Year:2020</div>
+       </div>
+       <div class="box">
+         <div class="topic">Computer Programming Dipoma</div>
+         <div class="per">Year:2023</div>
+       </div>
+       
+     </div>
+   </div>
+ </div>
+</section>
+
+<!-- Contact Me section Start -->
+<section class="contact" id="contact">
+  <div class="content">
+    <div class="title"><span>Contact Me</span></div>
+    <div class="container">
+      <form action="action_page.php">
+    
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    
+      </form>
+    </div> 
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section Start -->
+<footer>
+  <div class="text">
+    <span>Created By Komalpreet Kaur</span>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
